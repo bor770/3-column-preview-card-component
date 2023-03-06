@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  padding: 90px 6.667%;
+}
+
+.container {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+  :host {
+    padding: 170px 18.055%;
+  }
+
+  .container {
+    border-radius: 10px;
+    display: flex;
+  }
+
+  app-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+<div
+  class="container"
+  [ngStyle]="{
+    '--button-color': 'var(--color-' + car.color + ')',
+    backgroundColor: 'var(--color-' + car.color + ')'
+  }"
+>
+  <img
+    [src]="'../../assets/images/icon-' + car.imagePath + '.svg'"
+    [alt]="car.heading"
+  />
+  <h2>{{ car.heading }}</h2>
+  <p>{{ car.text }}</p>
+  <button>Learn More</button>
+</div>

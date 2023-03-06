@@ -1,0 +1,44 @@
+.container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lexend Deca', sans-serif;
+  height: 29.667rem;
+  justify-content: space-between;
+  padding: 3.333rem 12% 3.333rem 15.385%;
+}
+
+h2 {
+  color: var(--color-very-light-gray);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--color-transparent-white);
+  line-height: 1.6;
+}
+
+button {
+  background-color: var(--color-very-light-gray);
+  border: 3px solid var(--color-very-light-gray);
+  border-radius: 25px;
+  color: var(--button-color);
+  cursor: pointer;
+  font: inherit;
+  height: 3.333rem;
+  width: 10rem;
+}
+
+button:hover {
+  background-color: transparent;
+  color: var(--color-very-light-gray);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    height: 33.333rem;
+    padding-right: 19.935%;
+  }
+}
